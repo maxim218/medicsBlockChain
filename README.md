@@ -12,3 +12,39 @@ npm install
 npm install
 ```
 
+Заходим в папку **fabcar**
+
+```
+cd fabcar
+```
+
+Запускаем fabric
+
+```
+sudo bash ./startFabric.sh node
+```
+
+Добавляем админа
+
+```
+node enrollAdmin.js
+```
+
+Добавляем пользователя
+
+```
+node registerUser.js
+```
+
+Запускаем сервер
+
+```
+npm start
+```
+
+Запускаем клиента
+
+```
+python ./send.py
+```
+
